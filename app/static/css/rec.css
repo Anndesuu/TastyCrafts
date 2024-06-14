@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(173, 191, 210);
+    margin: 0 0 0 0;
+}
+
+.nav{
+    background-color: rgb(201, 60, 9);
+    color: white;
+    padding: 0.1rem;
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.25rem;
+}
+
+.header{
+    display:flex; 
+    width: 100%; 
+    margin-top: 0;
+}
+
+.josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-left: 1.25rem;
+}
+
+.descbody{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0.625rem;
+    background-color: white;
+}
+.header-outer{
+    padding: 2rem;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display:flex;
+}
+
+.out{
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    padding: 1rem;
+    width: 40%;
+    object-fit: cover;
+}
+
+.title-name{
+    font-size: 1.563rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.title-desc{
+    font-size: 0.938rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 914px) {
+    .rec-img {
+        width: 20rem;
+        height: 13rem;
+        object-fit: cover;
+        border-radius: 0.625rem;
+        position: relative;
+        border: 0.125rem solid rgb(201, 60, 9);
+    }
+    .title-name {
+        font-size: 1.4rem;
+    }
+    .title-desc{
+        font-size: 0.9rem;
+    }
+}
+
